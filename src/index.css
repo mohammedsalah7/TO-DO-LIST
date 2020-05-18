@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #46529d;
+  color: #fff;
+ 
+}
+.text-center{
+  text-align: center;
+}
+.App-contanier{
+  width:60%;
+  margin: 10% auto;
+
+}
+.List{
+  background:#fff;
+  color: #46529d; 
+  
+}
+.List p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+.List span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border:  0.3px solid #ccc;
+
+}
+.List span.title{
+background:#2ebaee;
+color: #fff;
+}
+
+.List span.name ,
+  form input[type=text]{
+    width:60%;
+  }
+  
+  .List span.age,
+  form input[type=number]{
+    width: 20%;
+   
+    } 
+
+  .List span.action, 
+  form input[type=submit]{
+    width: 20%;
+    
+   
+    }
+  .List span.action-icon{
+    color: red;
+    cursor: pointer;
+    width: 20%;
+    
+  }
+  
+   form input{
+    padding: 10px;
+    background :#2ebaee;
+    border:transparent;
+    border: 0.3px solid #ccc;
+    
+  }  
+  
+    
+
+    form input[type=submit]{
+    background :#2ebaee;
+    border:  0.3px solid#ccc;
+    cursor: pointer;
+    
+  } 
